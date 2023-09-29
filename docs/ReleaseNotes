@@ -1,7 +1,7 @@
 Hammer of Thyrion (uHexen2) release notes:
 
 ========================================================================
-Changes in v1.5.10: (Sep. 15, 2023.)
+Changes in v1.5.10: (Sep. 28, 2023.)
 ========================================================================
 
 This is a minor bug fix and maintenance release:
@@ -30,6 +30,11 @@ This is a minor bug fix and maintenance release:
 - Software renderer: fixed a left/right alias edge clipping bug.
 
 - More performance tweaks mostly targeting the software renderer.
+
+- Fixed hexen2 inventory item drop to take effect immediately: New
+  command 'invdrop' which was actually present in hexenworld. Users
+  must bind their key again in the menu system in order for that to
+  work. (sf.net bug 58.)
 
 - Windows, midi: Fixed volume reseting after loop (sf.net bug 66.)
 
